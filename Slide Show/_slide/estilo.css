@@ -1,0 +1,28 @@
+@charset "UTF-8";
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(255, 255, 255);
+}
+
+div#div1 {
+    text-align: center;
+    max-width: 1100px;
+    height: 400px;
+    margin: auto;
+    background-color: 0px 0px 10px rgb(26, 133, 127);
+    padding: 00px;
+    box-shadow: 7px 7px 7px 7px black;
+    border-radius: 10px;
+}
+
+img {
+    max-width: 100%;
+}
+
+h1 {
+    width: 1100px;
+    font-weight: bold;
+    background-color: #9fb9fc;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}

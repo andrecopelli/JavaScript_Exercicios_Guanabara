@@ -1,0 +1,55 @@
+@charset "UTF-8";
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(255, 255, 255);
+}
+
+img#face {
+    margin-top: 50px;
+}
+
+div#div1 {
+    text-align: center;
+    width: 500px;
+    height: 320px;
+    margin: 10% auto 0px auto;
+    background-color: 0px 0px 10px rgb(26, 133, 127);
+    padding: 00px;
+    box-shadow: 7px 7px 7px 7px black;
+    border-radius: 10px;
+}
+
+input#botao {
+    padding: 5px;
+    background-color: #9fb9fc;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.493);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 12pt;
+    text-transform: uppercase;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.753);
+    text-align: center;
+}
+
+h1 {
+    width: 500px;
+    font-weight: bold;
+    background-color: #9fb9fc;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+input#botao:hover {
+    box-shadow: 5px 5px 5px grey;
+    transition: 1s;
+    background-color: #6e8fe4;
+}
+
+input#botao:active {
+    box-shadow: 5px 5px 5px grey;
+    position: relative;
+    top: 3px;
+}

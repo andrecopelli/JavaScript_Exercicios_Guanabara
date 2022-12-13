@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="estilo.css"/>
+    <title>JS10 - Pedra, Papel e Tesoura</title>
+</head>
+<body>
+    <div id="div1">
+        <h1>JS10 - JOKENPÔ</h1>
+        <h3>Jogador: </h3>
+        <img src="pedra.png" alt="Pedra"/>
+        <img src="papel.png" alt="Papel"/>
+        <img src="tesoura.png" alt="Tersoura"/>
+        <form name="frmPpt">
+            <input type="radio" name="grupo" id="pedra">Pedra
+            <input type="radio" name="grupo" id="papel">Papel
+            <input type="radio" name="grupo" id="tesoura">Tesoura
+            <p>
+                <input type="button" value="JOGAR"  id="botao1" onclick="jogar()"/>
+                <input type="button" value="RESET" id="botao2" onclick="resetar()"/>
+            </p>
+        </form>
+        <hr/>
+        <h3>IA: </h3>
+        <img src="pc.png" alt="PC" id="pc"/>
+        <hr/>
+        <h3 id="placar">PLACAR</h3>
+        <script src="ppt.js"></script>
+</body>
+</html>
